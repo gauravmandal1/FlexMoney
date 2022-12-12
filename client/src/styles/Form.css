@@ -1,0 +1,70 @@
+:focus {
+    outline: none;
+  }
+  
+.formContainer{
+    display:flex;
+    flex-direction: column;
+    width:25vw;
+    margin:auto;
+    position:relative;
+    top:10vh;
+    align-items: center;
+    border: 1px solid
+    
+        /* background-image: url('Images/Yoga2.jpg'); */
+        /* background-repeat: no-repeat; */
+    
+}
+.imageContainer{
+    display:flex;
+    
+    position:top;
+    top:10vh;
+    align-items: center;
+    border: 1px solid
+
+
+}
+.formContainer>input{
+border:none;
+border-bottom:2px solid grey;
+outline:none;
+margin:15px 0px;
+width:90%;
+transition:.5s;
+overflow:hidden;
+}
+.formContainer>input:focus{
+    border-bottom:2px solid orange;
+}
+
+.formContainer .batchTiming .batchOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.formContainer .batchTiming .batchOptions div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formContainer .batchTiming .batchOptions div>*{
+    margin:0px 5px;
+}
+
+.formContainer .toPayment{
+    background:none;
+    border:none;
+    margin:10px 0px;
+    transition:.5s;
+    height:50px;
+    width:180px;
+}
+.formContainer .toPayment:hover{
+    color:white;
+    background-color: black;
+}
+
+

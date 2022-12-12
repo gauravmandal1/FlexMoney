@@ -1,0 +1,68 @@
+input{
+    outline:none;
+    border:none;
+    border-bottom: 2px solid grey;
+    transition:.5s;
+}
+input:focus{
+    border-bottom: 2px solid #3399ff;
+}
+.paymentContainer{
+    display:none;
+    flex-direction: column;
+    width:30vw;
+    
+    margin:auto;
+    position:relative;
+    top:10vh;
+    align-items: flex-start;
+    
+    
+    /* border-radius: 2px 2px; */
+}
+.paymentContainer .amountDisclaimer{
+    font-size: large;
+}
+.paymentContainer .optionsHeader{
+    margin:20px 0px;
+}
+
+.paymentContainer .toCompletion{
+    background:none;
+    border:none;
+    margin:10px 0px;
+    transition:.5s;
+    height:50px;
+    width:100%;
+}
+.paymentContainer .toCompletion:hover{
+    color:white;
+    background-color: black;
+}
+.loader{
+    position:absolute;
+    top:20%;
+    left:35%;
+    z-index:-2;
+    display:none;
+}
+.paymentContainer .optionDiv{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.paymentContainer .optionDiv>label{
+    margin:0px 5px;
+}
+.paymentContainer .cardDetailsDiv{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.paymentContainer .cardDetailsDiv>*{
+    margin:5px 0px;
+}
+.paymentContainer .upiDiv,.cardDiv{
+    border: 1px solid;
+    margin:15px 0px;
+}
