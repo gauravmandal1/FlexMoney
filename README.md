@@ -1,8 +1,6 @@
 # FlexMoney
 Full stack yoga registration
 
-It is full stack registration app
-
 
 ## 🔗 Hosting
 # Backend is hosted on railway.
