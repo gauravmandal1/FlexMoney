@@ -4,6 +4,13 @@ Full stack yoga registration
 It is full stack registration app
 
 
+## 🔗 Hosting
+# Backend is hosted on railway.
+[![Backend](https://img.shields.io/badge/Backend-deployed-brightgreen?style=for-the-badge&logo=appveyor)](https://flexmoneyserver-production.up.railway.app/)
+# Frontend is hosted on netlify.
+[![Frontend](https://img.shields.io/badge/Frontend-deployed-blueviolet?style=for-the-badge&logo=appveyor)](https://luminous-sunburst-b9effb.netlify.app/)
+
+
 ## Run Locally
 
 Clone the project
