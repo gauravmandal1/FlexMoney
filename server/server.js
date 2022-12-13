@@ -11,12 +11,15 @@ dotenv.config();
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-const port = "8000"|process.env.PORT
+const port = process.env.PORT||8000
 
 
 app.use(CORS())
 app.use(express.json())
 
+app.use('/',async(req,res)=>{
+  return res.json({"welcome to flex app yoga":"flex"})
+})
 app.use("/user",userRouter)
 app.use("/payment",paymentRouter)
 
