@@ -37,7 +37,7 @@ function Payment() {
           err += "Invalid CVV number\n";
         }
         if (err.length == 0) {
-            fetch('http://localhost:8000/payment',{
+            fetch('https://flexmoneyserver-production.up.railway.app/payment',{
               "method":"post",
               headers:{
                 "Content-Type":"application/json"

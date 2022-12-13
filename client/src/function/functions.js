@@ -45,8 +45,8 @@ function validateAge(age) {
   return ageInt >= 18 && ageInt <= 65;
 }
 function validateCardLength(cardNo) {
-  if (cardNo.length == 16) return true;
-  return false;
+  // if (cardNo.length == 16) return true;
+  return true;
 }
 function validateCvvLength(cvvCode) {
   if (cvvCode.length != 3) return false;

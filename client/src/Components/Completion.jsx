@@ -12,7 +12,7 @@ function Completion() {
             <img src={paymentComplete}/>
             {/* <a target="_blank" href="https://icons8.com/icon/HnXRT7E5UtPf/verified-badge">Verified Badge</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */}
             <h>Payment Complete</h>
-            
+            con
             <div className="details">
               <h>Name :{String(localStorage.getItem("name"))} </h>
               <h>Age : {String(localStorage.getItem("age"))} years </h>

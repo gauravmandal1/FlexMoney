@@ -43,7 +43,7 @@ function Form() {
         startDate.substr(0, 4);
 
       //Store the data on the database by calling the REST API
-      fetch("http://localhost:8000/user", {
+      fetch("https://flexmoneyserver-production.up.railway.app/user", {
         method: "post",
         headers: {
           "Content-Type": "application/json",
@@ -64,7 +64,7 @@ function Form() {
           const message_id = responseData.message_id;
 
           //If successful updation is there or successfull insertion is there
-          if (message_id == "1" || message_id == "3") {
+          if (message_id == "1" || message_id == "3"||message_id == "2") {
             //Store the information locally to be used later
             localStorage.setItem("name", name);
             localStorage.setItem("age", Number(age));
