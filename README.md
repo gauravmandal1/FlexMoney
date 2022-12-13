@@ -95,3 +95,7 @@ Start the server
 - Made dummy react resgistration form 
 - Data validation of user input
 - Connected with backend 
+- Hosted backend and front end
+
+## Check it out
+[![Frontend](https://img.shields.io/badge/Project-deployed-blue?style=for-the-badge&logo=appveyor)](https://luminous-sunburst-b9effb.netlify.app/)
