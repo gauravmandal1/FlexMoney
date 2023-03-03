@@ -72,7 +72,7 @@ Start the server
 ## response from backend when registered
 ![apiresponse_flex](https://user-images.githubusercontent.com/64638825/207106785-9bb58540-596c-43a8-a4ef-a932b796e64c.jpg)
 
-## All data validation are done on client side so that no unneccsorry api calls are made 
+## All data validation are done on client side so that no unnecessary api calls are made 
 ![accountincalid](https://user-images.githubusercontent.com/64638825/207107511-4f721607-7d61-45bd-89a6-691a31eb090f.jpg)
 
 ## Registraion ui 
